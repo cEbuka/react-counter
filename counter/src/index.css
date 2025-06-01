@@ -36,7 +36,8 @@ button {
 }
 
 button:active {
-  background-color: #3a3b3a;
+  background-color: #fff;
+  color: #000;
   outline: 1px solid #000;
   transition: background-color 0.3s ease;
 }

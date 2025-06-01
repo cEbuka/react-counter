@@ -5,7 +5,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   function incrementCount() {
-    setCount(prev => prev + 1)
+    setCount(prev => prev + 1);
   }
 
   function decrementCount() {
@@ -14,6 +14,7 @@ const App = () => {
 
   return <Fragment>
     <h1>Count: <span className='count__display'>{count}</span></h1>
+    {count === 0 && <p className='count__zero'>You're on the ground level</p>}
     <button onClick={incrementCount}>Increment count</button>
     <button onClick={decrementCount} disabled={count === 0}>Decrement count</button>
   </Fragment>

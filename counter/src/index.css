@@ -1,0 +1,42 @@
+body {
+  background-color: grey;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  line-height: 1.5;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: #1a1b1a;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 8px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.count__display {
+  width: 200px;
+  height: 50px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ee2b2b;
+}
+
+button:active {
+  background-color: #3a3b3a;
+  outline:1px solid #000;
+  transition: background-color 0.3s ease;
+}
